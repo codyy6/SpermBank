@@ -14,7 +14,7 @@ const FloatingSperm = ({ delay = 0 }) => (
     className="fixed w-12 h-12 opacity-20"
     initial={{ x: -100, y: Math.random() * 500 }}
     animate={{
-      x: window.innerWidth + 100,
+      x: typeof window !== 'undefined' ? window.innerWidth + 100 : 1000,
       y: Math.random() * 500,
     }}
     transition={{
