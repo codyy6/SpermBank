@@ -4,18 +4,18 @@
     https://sol-spermbank.vercel.app/
 ```
 
-## Tech Stack used
+# Tech Stack used
 
-# Frontend
+## Frontend
 
 - Next js
 - Tailwind CSS
 
-# Smart Contracts
+## Smart Contracts
 
 - Rust
 
-# Wallet Sign in
+## Wallet Sign in
 
 - Phantom Wallet
 - Metamask
